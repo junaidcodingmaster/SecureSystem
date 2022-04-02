@@ -1,0 +1,5 @@
+inquirer
+pyfiglet
+simple_chalk
+dropbox
+cv2
