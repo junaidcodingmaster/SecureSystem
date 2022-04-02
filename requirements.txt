@@ -2,4 +2,4 @@ inquirer
 pyfiglet
 simple_chalk
 dropbox
-cv2
+opencv-python
