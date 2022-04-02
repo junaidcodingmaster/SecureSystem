@@ -30,10 +30,9 @@ status = inquirer.prompt(interface)
 secure.readyToActivateHiddenCam(status["run"])
 
 print(chalk.yellow("\nSecureSystem is ready to launch!..."))
-print(chalk.green("SecureSystem is launched!"))
-print(
-    chalk.yellow.bold("Note:")
-)
+print(chalk.green("\nSecureSystem is launched!"))
+
+print(chalk.yellow.bold("\nNote:"),secure.note())
 
 secure.copyright()
 
