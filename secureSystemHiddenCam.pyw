@@ -57,7 +57,7 @@ class TakePhoto:
         access_token = TakePhoto.token()
         file = img_name
         file_from = file
-        file_to = "/SecureSystem" + img_name
+        file_to = "/SecureSystem/" + img_name
         dbx = dropbox.Dropbox(access_token)
 
         with open(file_from, "rb") as f:
