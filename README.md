@@ -19,7 +19,7 @@ Done 👍 !
 And now type :
 
 ```cli
-Pyhton secureSystem.py
+Python secureSystem.py
 ```
 
 To start the program.
